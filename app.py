@@ -17,14 +17,11 @@ def index():
 
         try:
             pattern = re.compile(regex)
-
             result = ""
             last_end = 0
 
             for match in pattern.finditer(text):
                 start, end = match.span()
-
-                # Skip zero-length matches
                 if start == end:
                     continue
 
@@ -48,4 +45,4 @@ def index():
     )
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
