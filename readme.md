@@ -7,7 +7,7 @@ The application allows users to enter a **regular expression** and a **test stri
 
 ---
 ## ⚙️ Application Link
-```bash
+```
 https://flask-regex-tester-web-application.onrender.com/
 ```
 
